@@ -1,0 +1,89 @@
+/* Container */
+.to-do-list {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border :#333 ;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.to-do-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input section */
+.to-do-list input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.to-do-list input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+/* Add button */
+.add-task {
+    padding: 8px 14px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task:hover {
+    background-color: #43a047;
+}
+
+/* List */
+ol {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+/* List item */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background: white;
+    border-style: solid;
+    border-color :#333;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+/* Task text */
+.text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Delete button */
+.delete-task {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-task:hover {
+    background-color: #d32f2f;
+}
